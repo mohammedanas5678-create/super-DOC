@@ -1,13 +1,12 @@
-Ai-techDoc v1.3 — TEST PIN SCREEN LOCK
+DAYA Medical Centre Clinic Manager — Kottayi
+Customized from the supplied Ai-techDoc Pro Beta 6 package using the DAYA Medical Centre logo.
 
-Upload all seven files to the ROOT of your GitHub Pages repository, replacing older files. Wait for deployment, refresh Safari, and if needed remove/re-add the Home Screen shortcut. On first launch choose a 6-digit PIN, confirm it, and test locking. Auto-lock after 1/2/5 minutes, or after returning from background for over 10 seconds.
+Features retained from the source beta: patient registration, visit history, prescription creation and A5 printing, saved medicine/lab presets, appointments, billing/invoices, reports, encrypted local vault, encrypted backup and recovery-kit workflow.
 
-SECURITY WARNING: The PIN only hides the interface. Records are still saved unencrypted in localStorage, and JSON backups are unencrypted. No secure PIN recovery, access audit, encryption, or reliable protected backup. DO NOT STORE REAL PATIENT INFORMATION. A 6-digit PIN is not suitable as a standalone encryption secret. This is a prototype for fictional data only.
-
-Ai-techDoc v1.4 Heal Bay branding
-- Adds heal-bay-logo.png to the dashboard header and printed prescriptions.
-- New installations default clinic name to Heal Bay; existing saved clinic settings are preserved.
-- If an existing clinic name is set, change it under Settings & Backup > Clinic details to Heal Bay.
-- This update does not encrypt patient data or backups. PIN remains a demo screen lock only.
-- Upload ALL files including heal-bay-logo.png to the GitHub repository root.
-- Check the GitHub Pages deployment, then refresh the app.
+IMPORTANT LIMITATIONS:
+- This is an offline, single-browser/device beta. It does NOT synchronize multiple iPads or devices.
+- Data is stored locally in the browser on the device. Clearing browser data or losing the device can cause data loss; export encrypted backups regularly and store them securely.
+- Password recovery requires a previously exported recovery kit and its separately stored key.
+- Not clinically or security certified. Test thoroughly with dummy records before any real patient data is entered. Arrange an independent security, privacy, backup/restore, and clinical workflow review before production use.
+- For iPad Safari printing, choose A5 portrait paper and check the print preview.
+- Open index.html through a suitable local web server or HTTPS hosting for reliable PWA/offline installation; browser restrictions may apply when opening directly as a file.
